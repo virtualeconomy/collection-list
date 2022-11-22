@@ -1,0 +1,12 @@
+{
+    "collections": [
+        {
+            "collection_id": "CF4TVycwNLNWbJ1iL3ypy1C4RbabB3nLZdM",
+            "ticker": "MATERIA",
+            "name": "Materia Dashboard Demonstration",
+            "logo": "https://i.imgur.com/pvsV93H.png",
+            "supply": 1000,
+            "description": "Materia Dashboard Demonstration."
+        }
+    ]
+}
