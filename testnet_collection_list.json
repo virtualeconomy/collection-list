@@ -7,6 +7,14 @@
             "logo": "https://i.imgur.com/pvsV93H.png",
             "supply": 1000,
             "description": "Materia Dashboard Demonstration."
-        }
+        },
+        {
+            "collection_id": "CEzLcDMKhh3iZQJnokuhZkLwNd3HqQyGpJd",
+            "ticker": "MATERIA 2.0 CTRT",
+            "name": "Materia Dashboard Demonstration 2",
+            "logo": "https://i.imgur.com/pvsV93H.png",
+            "supply": 1000,
+            "description": "Materia Dashboard Demonstration."
+       }
     ]
 }
