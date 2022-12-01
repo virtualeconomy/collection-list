@@ -15,6 +15,14 @@
             "logo": "https://i.imgur.com/pvsV93H.png",
             "supply": 1000,
             "description": "Materia Dashboard Demonstration."
+       },
+        {
+            "collection_id": "CF7RYMqcnqgJCfJnHoCwzu4SWGfcLErX7nS",
+            "ticker": "Cha Collection",
+            "name": "Cha Collection",
+            "logo": "https://i.pinimg.com/originals/4f/d7/2a/4fd72a06fba935bed9ef5da231e09115.jpg",
+            "supply": 1000,
+            "description": "Cha Collection."
        }
     ]
 }
