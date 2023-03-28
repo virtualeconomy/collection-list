@@ -3,7 +3,7 @@ name: 'Notify VSYS Explorer'
 on:
   push:
     branches:
-      - feat/test-notify
+      - main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
