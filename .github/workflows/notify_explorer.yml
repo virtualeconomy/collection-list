@@ -15,33 +15,33 @@ jobs:
     steps:
       - name: Call Mainnet Explorer API
         id: MainnetRequest
-        if: ${{ contains(github.event.head_commit.modified, "mainnet_colleciton_list.json") }}
+        if: ${{ contains(github.event.head_commit.modified, 'mainnet_colleciton_list.json') }}
         uses: fjogeleit/http-request-action@v1
         with:
           url: 'https://{{ secrets.MAINNET_URL }}/api/v1'
           method: 'PATCH'
           customHeaders: '{"Content-Type": "application/json"}'
-          data: '{"apiKey": {{ secrets.MAINNET_APIKEY }}, "function": "updateLists"}'
+          data: '{"apiKey": "{{ secrets.MAINNET_APIKEY }}", "function": "updateLists"}'
         
       - name: Call Testnet Explorer API
         id: TestnetRequest
-        if: ${{ contains(github.event.head_commit.modified, "testnet_colleciton_list.json") }}
+        if: ${{ contains(github.event.head_commit.modified, 'testnet_colleciton_list.json') }}
         uses: fjogeleit/http-request-action@v1
         with:
           url: 'https://{{ secrets.TESTNET_URL }}/api/v1'
           method: 'PATCH'
           customHeaders: '{"Content-Type": "application/json"}'
-          data: '{"apiKey": {{ secrets.TESTNET_APIKEY }}, "function": "updateLists"}'
+          data: '{"apiKey": "{{ secrets.TESTNET_APIKEY }}", "function": "updateLists"}'
         
       - name: Call Devnet Explorer API
         id: DevnetRequest
-        if: ${{ contains(github.event.head_commit.modified, "devnet_colleciton_list.json") }}
+        if: ${{ contains(github.event.head_commit.modified, 'devnet_colleciton_list.json') }}
         uses: fjogeleit/http-request-action@v1
         with:
           url: 'https://{{ secrets.DEVNET_URL }}/api/v1'
           method: 'PATCH'
           customHeaders: '{"Content-Type": "application/json"}'
-          data: '{"apiKey": {{ secrets.DEVNET_APIKEY }}, "function": "updateLists"}'
+          data: '{"apiKey": "{{ secrets.DEVNET_APIKEY }}", "function": "updateLists"}'
           
       - name: Show responses
         run: |
