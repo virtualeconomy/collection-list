@@ -47,6 +47,5 @@ jobs:
         run: |
           echo ${{ steps.MainnetRequest.outputs.response }}
           echo ${{ steps.TestnetRequest.outputs.response }}
-          echo ${{ steps.DevnetRequest.outputs.response }}
         
         
