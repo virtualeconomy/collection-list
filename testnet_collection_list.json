@@ -1,3 +1,11 @@
 {
-
+    "collections": [
+        {
+            "collection_id": "CF3VomjBDupSR396uScakUyuCVuf6qtg8Dc",
+            "ticker": "Tetriverse",
+            "name": "Tetriverse Block Buddies",
+            "logo": "https://qiniu.stylika.online/TET_COLLECTION.png",
+            "description": "Block Buddies NFTs collection of Tetris game."
+        }
+    ]
 }
