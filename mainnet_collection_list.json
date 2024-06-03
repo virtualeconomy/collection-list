@@ -13,6 +13,13 @@
             "name": "NFT Octopus",
             "logo": "",
             "description": "An NFT-based Collectable Card Game built on the V Systems blockchain."
+        },
+        {
+            "collection_id": "CC6XpRiKdiQDbh9mLxzobnyH1xQxtSNt939",
+            "ticker": "Tetriverse",
+            "name": "Tetriverse Block Buddies",
+            "logo": "https://qiniu.stylika.online/TET_COLLECTION.png",
+            "description": "Block Buddies NFTs collection of Tetris game."
         }
     ]
 }
