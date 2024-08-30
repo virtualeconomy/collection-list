@@ -4,14 +4,14 @@
             "collection_id": "CCPnua6p6pvuaKkMqrd1PcrnseW3Jpu3xs9",
             "ticker": "Felix Dictionary",
             "name": "Felix Dictionary",
-            "logo": "",
+            "logo": "https://qiniu.stylika.online/FelixDictionary.png",
             "description": "Felix, the world's first dictionary on a blockchain."
         },
         {
             "collection_id": "CCN76475dV1yUzsTthQXWBsbr8dXBUTsrKf",
             "ticker": "NFT Octopus",
             "name": "NFT Octopus",
-            "logo": "",
+            "logo": "https://qiniu.stylika.online/NFTOctopus.png",
             "description": "An NFT-based Collectable Card Game built on the V Systems blockchain."
         },
         {
